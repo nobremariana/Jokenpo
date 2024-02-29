@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JokenPô</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>JokenPô</h1>
+        <div class="buttons">
+            <button id="rock" onclick="PlayHuman('rock')">&#x1F44A</button>
+            <button id="paper" onclick="PlayHuman('paper')">&#x270B</button>
+            <button id="scissors" onclick="PlayHuman('scissors')">&#x270C</button>
+        </div>
+        <p class="result"></p>
+        <div class="parag">
+            
+            <p class="your-score">Sua Pontuação: <span id="human-score">0</span></p>
+            <p>X</p>
+            <p class="machine-score">Pontuação da Alexa: <span id="machine-scores">0</span></p>
+            <p class="button-your"></p>
+            <p class="button-machine"></p>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
